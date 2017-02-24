@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/activity_main"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="com.didikee.uitoastsample.MainActivity">
+
+    <Button
+        android:id="@+id/bt_normal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="normal"
+        />
+
+    <Button
+        android:id="@+id/bt_theme_color"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="theme_color"
+        />
+
+    <Button
+        android:id="@+id/bt_custom_color"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="custom_color"
+        />
+
+    <Button
+        android:id="@+id/bt_location_Screen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="location_Screen"/>
+
+    <Button
+        android:id="@+id/bt_location_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="location_view"/>
+
+    <Button
+        android:id="@+id/bt_location_random"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="location_random"/>
+    <Button
+        android:id="@+id/bt_animation_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="animation_1"/>
+
+</LinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorToastTextColor">@android:color/white</color>
+    <color name="colorToastBackgroundColor">@color/colorPrimaryDark</color>
+</resources>

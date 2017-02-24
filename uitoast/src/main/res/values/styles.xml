@@ -1,0 +1,8 @@
+<resources>
+
+    <style name="AnimationToast">
+        <item name="android:windowEnterAnimation">@anim/toast_fade_enter</item>
+        <item name="android:windowExitAnimation">@anim/toast_fade_exit</item>
+    </style>
+
+</resources>
