@@ -20,13 +20,13 @@ import java.lang.reflect.Field;
  * Description: 
  */
 
-public final class UIToastBuild {
+public final class UIToast2 {
     public static final int NONE = 0;
 
-    private UIToastBuild() {
+    private UIToast2() {
     }
 
-    private UIToastBuild(Builder builder) {
+    private UIToast2(Builder builder) {
         @ColorInt int toastTextColor = builder.toastTextColor;
         @ColorInt int toastBackgroundColor = builder.toastBackgroundColor;
         @StyleRes int animationStyleId = builder.animationStyleId;
@@ -173,8 +173,8 @@ public final class UIToastBuild {
             return this;
         }
 
-        public UIToastBuild show() {
-            return new UIToastBuild(this);
+        public UIToast2 show() {
+            return new UIToast2(this);
         }
     }
 

@@ -51,9 +51,15 @@
         android:layout_height="wrap_content"
         android:text="location_random"/>
     <Button
-        android:id="@+id/bt_animation_1"
+        android:id="@+id/bt_animation"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="animation_1"/>
+        android:text="animation"/>
+
+    <Button
+        android:id="@+id/bt_builder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/builder"/>
 
 </LinearLayout>

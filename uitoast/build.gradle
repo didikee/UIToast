@@ -38,11 +38,11 @@ ext {
 
     libraryDescription = 'a toast style lib for Android'
 
-    siteUrl = 'https://github.com/didikee/AndroidNormalUILibs'
-    gitUrl = 'https://github.com/didikee/AndroidNormalUILibs.git'
+    siteUrl = 'https://github.com/didikee/UIToast'
+    gitUrl = 'https://github.com/didikee/UIToast.git'
 
-    //---- 2017-01-10 -----//
-    libraryVersion = '0.8.10'
+    //---- 2017-02-24 -----//
+    libraryVersion = '0.1.0'
 
     developerId = 'didikee'
     developerName = 'didikee'

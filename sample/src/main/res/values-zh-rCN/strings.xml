@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">UIToast</string>
+    <string name="normal">系统默认的 Toast</string>
+    <string name="theme_color">带主题色(colorPrimaryDark)的 Toast</string>
+    <string name="custom_color">自定义颜色的 Toast</string>
+    <string name="location_Screen">在屏幕中的 Toast</string>
+    <string name="location_view">在 LOCATION_VIEW 下方展示的 Toast </string>
+    <string name="location_random">在屏幕中随机出现的 Toast</string>
+    <string name="animation">系统默认的 Toast 带自定义的动画</string>
+    <string name="builder">也可以使用 Builder 构造 Toast</string>
+
+</resources>

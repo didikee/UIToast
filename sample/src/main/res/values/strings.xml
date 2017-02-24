@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">UIToast</string>
+    <string name="normal">This is Normal Toast</string>
+    <string name="theme_color">Toast with theme color</string>
+    <string name="custom_color">Toast with custom color</string>
+    <string name="location_Screen">Toast location on screen</string>
+    <string name="location_view">Toast below LOCATION_VIEW  button</string>
+    <string name="location_random">Toast with Random location</string>
+    <string name="animation">This is normal Toast with animation</string>
+    <string name="builder">use builder if you want</string>
 </resources>
