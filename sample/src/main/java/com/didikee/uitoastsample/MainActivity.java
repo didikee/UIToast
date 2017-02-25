@@ -7,7 +7,6 @@ import android.support.v7.app.AppCompatActivity;
 import android.util.DisplayMetrics;
 import android.view.Gravity;
 import android.view.View;
-import android.widget.Toast;
 
 import com.didikee.uitoast.UIToast;
 import com.didikee.uitoast.UIToast2;
@@ -55,7 +54,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     public void onClick(View v) {
         switch (v.getId()){
             case R.id.bt_normal:
-                Toast.makeText(this, res.getString(R.string.normal), Toast.LENGTH_SHORT).show();
+                UIToast.showToast(this,res.getString(R.string.normal));
                 break;
             case R.id.bt_theme_color:
                 UIToast.showStyleToast(this,res.getString(R.string.theme_color));

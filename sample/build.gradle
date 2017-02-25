@@ -22,5 +22,6 @@ android {
 dependencies {
     compile fileTree(include: ['*.jar'], dir: 'libs')
     compile 'com.android.support:appcompat-v7:25.1.1'
-    compile project(':uitoast')
+//    compile project(':uitoast')
+    compile 'com.didikee:uitoast:0.1.0'
 }
